@@ -1,0 +1,9 @@
+def occurence (tup,lst)
+→count=0
+→for item in tup:
+→→if item in lst:
+→→→count+=1
+→return count
+tup=('a','a','c','b','d')
+lst=['a','b']
+print(occurence(tup,lst))
