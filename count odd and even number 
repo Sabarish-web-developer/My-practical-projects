@@ -1,0 +1,12 @@
+import array as arr
+num=arr.array('i',[2,3,245,6,89,90,20,35])
+odd=0
+even=0
+for i in num:
+→if(i%2==0):
+→→even+=1
+→else:
+→→odd+=1
+print("counting odd and even number in a list using array")
+print("Number of even number",even)
+print("Number of odd number",odd)
